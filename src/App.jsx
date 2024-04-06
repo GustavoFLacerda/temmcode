@@ -4,6 +4,7 @@ import { Hero } from "./Hero";
 import { Serviços } from "./Serviços";
 import { Projetos } from "./Projetos";
 import { Contato } from "./Contato";
+import { Footer } from "./Footer";
 
 
 export default function App(){
@@ -15,6 +16,7 @@ export default function App(){
         <Serviços />
         <Projetos />
         <Contato />
+        <Footer />
         </>
     )
 }

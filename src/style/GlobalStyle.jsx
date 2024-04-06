@@ -103,6 +103,59 @@ header button{
     font-size: 1.3vw;
     border-radius: 10px;
 }
+
+footer{
+    height: 240px;
+    background: #1B1C1C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 4%;
+}
+
+footer div{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+footer div div{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    width: 30%;
+}
+
+footer div:nth-child(3){
+    text-align: end;
+}
+
+footer div div img{
+    width: 50px;
+}
+
+footer div img{
+    width: 140px;
+}
+
+footer hr{
+    width: 53%;
+}
+
+footer h4{
+    font-weight: 300;
+font-size: 14px;
+line-height: 25px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
 `
 
 export default GlobalStyle;
